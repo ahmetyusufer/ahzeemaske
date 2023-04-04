@@ -1,0 +1,37 @@
+.containerr {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 4rem;
+    background-color: white;
+    padding:40px;
+    margin: 90px auto;
+    border-radius: 15px;
+}
+
+.deneme2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* width: 10px; */
+}
+
+.containerr p {
+    letter-spacing: .1rem;
+}
+
+.deneme2 img {
+    width: 150px;
+}
+
+
+
+@media (max-width:768px){ 
+    .containerr {
+        font-size: 28px;
+       width: 1220px;
+       margin-left: 80px;
+       margin-top: 200px;
+
+    }
+}
